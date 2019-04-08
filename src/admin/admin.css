@@ -1,0 +1,238 @@
+.bloc{
+    /* display:flex;
+    flex-direction:column; */
+    background-repeat:no-repeat;
+    height:200%;
+    width:100%;
+    background-size:230%;
+    background-image: url("https://images.pexels.com/photos/1658112/pexels-photo-1658112.jpeg");
+    /* background-image: url("https://images.pexels.com/photos/1399755/pexels-photo-1399755.jpeg"); */
+    }
+    
+    .mainpage{
+        display:flex;
+        flex-direction:row;
+        height:625px;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+        background-image: url("https://image.freepik.com/free-vector/restaurant-background-template_23-2147501815.jpg");
+        }
+    
+    .bienvenue{
+    margin-left:100px;
+    }
+    .msgbienvenue{
+        margin-top:60px;
+    }
+    .inscriptions{
+    display:flex;
+    flex-direction:column;
+    margin-left:100px;
+    margin-top:50px;
+    width:350px;
+    }
+    
+    /*::placeholder{
+    color:#EEE8AA;
+    opacity: 0.7;
+    }*/
+    .buttonmain{
+    margin-top:25px;
+    }
+    label{
+    font-size:18px;
+    color: rgb(242, 247, 247);
+    }
+    .gerer{
+    margin-top:50px;
+    margin-bottom: 20px;
+    margin-left:510px;
+    font-family: "Comic Sans Ms"
+    }
+    .inp{
+    width:200px;
+    margin-left:10px;
+    }
+    .inpmask{
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .labelandinput{
+        display:flex;
+        flex-direction: column;
+        font-family:"Comic Sans MS";
+        width:270px;
+        margin-bottom:20px;
+        color:black;
+        }
+    #description{
+    height:150px;
+    }
+    
+    
+    .bout{
+    margin-top:50px;
+    margin-left:320px;
+    }
+    .bout2{
+        margin-top:50px;
+        margin-left:380px;
+        }
+    .bou{
+    margin-right:40px
+    }
+    .inscadmin{
+    width:700px;
+    margin-left:500px;
+    margin-top:40px;
+    }
+    .inpsearch{
+    width:260px;
+    margin-left:500px;
+    }
+    .sign-in{
+    margin-left:100px;
+    margin-top:50px;
+    }
+    .h3{
+    padding-bottom:20px;
+    }
+    .ajout{
+        display:flex;
+        flex-direction:column;
+        width:360px;
+        margin-left:150px;
+        }
+    .nom{
+        display:flex;
+        flex-direction:row;
+        margin-top:20px;
+    }
+    .nom input {
+        margin-left:10px;
+        width:200px;
+    }
+    .nom textarea {
+        margin-left:10px;
+        width:200px;
+        height:150px;
+    }
+    .buttons {
+        margin-top:30px;
+        width:600px;  
+    }
+    .buttons button{
+        margin-left:30px;
+    }
+    .affichage{
+    width:1100px;
+    margin-left:220px;
+    margin-top:80px;
+    }
+    .composantimg
+    {
+        width:200px;
+        display:flex;
+        flex-direction:row;
+        margin-top:50px;
+    }
+    .composant
+    {
+        display:flex;
+        flex-direction:row;
+        height:40px;
+        margin-left:15px;
+    }
+    .composant2
+    {
+        display:flex;
+        flex-direction:row;
+        height:40px;
+        margin-left:20px;
+    }
+    .composant h5
+    {
+    color: #00FFFF;
+    font-size:16px;
+    margin-top:2px;
+    }
+    .composant2 h5
+    {
+    color: #00FFFF;
+    font-size:16px;
+    margin-top:2px;
+    }
+    
+    .composantdesc
+    {
+        display:flex;
+        flex-direction:row;
+        height:300px;
+        width:350px;
+    }
+    .composantdesc p{
+        padding-top:5px;
+        padding-left:6px;
+        width :250px;
+    }
+    .composant p{
+        padding-left:6px;
+    }
+    .affichage img{
+    width: 180px;
+    height:180px;
+    }
+    
+    
+    .h_composantdesc{
+    width:100px;
+    }
+    
+    .objmap{
+        display:inline-block;
+        font-family: "Comic Sans Ms";
+        margin-right:50px;
+        margin-bottom:50px;
+        width:280px;
+        height:460px;
+        border: 1px solid blanchedalmond;
+        border-radius:20px;
+        color: #fff;
+    }
+    
+    .usermap{
+    display:inline-block;
+    font-family: "Comic Sans Ms";
+    margin-right:50px;
+    margin-bottom:50px;
+    width:280px;
+    height:460px;
+    border: 1px solid blanchedalmond;
+    border-radius:20px;
+    color: #fff;
+    }
+    
+    .usermap img{
+    margin-bottom: 40px;
+    margin-left:80px;
+    width:100px;
+    height:100px;
+    }
+    .objmap img{
+    margin-bottom: 40px;
+    margin-left:70px;
+    width:150px;
+    height:150px;
+        }

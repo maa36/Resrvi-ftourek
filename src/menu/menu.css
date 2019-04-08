@@ -1,0 +1,85 @@
+
+/* fichier menu.js */
+.ListeMenu {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  opacity: 3;
+
+}
+.menu {
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/784633/pexels-photo-784633.jpeg");
+  font-family: "Comic Sans MS";
+  background-repeat: no-repeat;
+    background-size: 150%;
+    
+}
+.CardMenu{
+
+  width: 20em;
+}
+.cardmenu{
+  width: 19em;
+  height: 23em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: inline-block
+
+}
+.reserver{
+  border: 3px solid rgb(22, 20, 20);
+}
+.PrincipaleBloc {
+  display: flex;
+  flex-direction: column;
+  
+}
+.LinkConfirmation {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.Card {
+  background-color: #9fa6ad;
+  text-align: center;
+}
+.navbar-expand-lg {
+  position: fixed;
+}
+.navbar-brand {
+  width: 50%;
+}
+
+/* fichier reserver.js */
+.ModalNom {
+    text-align: center;
+    border: 1px solid red;
+    padding-left:  5em;
+}
+.card-img-top{
+  width: 0%;
+}
+.imagemenu{
+  border : 1px solid black;
+  height:  10em;
+}
+.InputNbrePlat{
+  margin: 0em 1em;
+
+}
+/*reservation*/
+.affichageFacture {
+  border: 1px solid black;
+  display: flex;
+  border-radius: 5px;
+  margin : 10em 25em
+}
+.affichageFacture  h3{
+  text-align: center;
+  border : 2px solid red;
+}
+  
